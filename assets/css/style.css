@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #ffa185;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #129799;
+  height: 38vw;
+  color: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header ul {
+  width: 60vw;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+header li {
+  font-size: 2vw;
+  cursor: pointer;
+}
+header li:hover {
+  font-weight: 500;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.logoContainer h1 {
+  font-weight: 700;
+  font-size: 4vw;
+  margin-bottom: -10px;
+}
+
+.logo {
+  width: 50vw;
+}
+
+.secondNavContainer {
+  margin-bottom: 10px;
+}
+
+.secondNavContainer ul {
+  width: 80vw;
+}
+
+/* Conteúdo principal */
+.watercolorText {
+  margin: 8vw 10vw 8vw 3vw;
+}
+
+.watercolorText h2 {
+  color: #fff;
+  font-size: 3.2vw;
+  margin-bottom: 3vw;
+}
+
+.watercolorText p {
+  font-size: 2.11vw;
+}
+
+.imagesSection {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-content: space-evenly;
+}
+
+.imagesSection figure {
+  width: 45vw;
+  margin-bottom: 50px;
+}
+
+.imagesSection img {
+  width: 100%;
+}
+
+.seeMore {
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.7vw;
+  cursor: pointer;
+  margin-bottom: 40px;
+}
+
+/* Rodapé */
+footer {
+  background-color: #129799;
+  height: 10vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+.socialMedia {
+  width: 20vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.socialMedia img {
+  width: 3vw;
+}
+
+.socialMedia a {
+  text-decoration: none;
+}
+
+.footerNav ul {
+  list-style: none;
+  color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  width: 40vw;
+}
+
+.footerNav li {
+  font-size: 2vw;
+  cursor: pointer;
+}
+.footerNav li:hover {
+  font-weight: 500;
+}
